@@ -1526,9 +1526,6 @@ importers:
       '@types/qunit':
         specifier: ^2.11.1
         version: 2.19.10
-      decorator-transforms:
-        specifier: ^1.0.1
-        version: 1.0.1(@babel/core@7.24.5)
       ember-auto-import:
         specifier: ^2.6.3
         version: 2.7.2
@@ -1665,9 +1662,6 @@ importers:
       ember-cli-4.4:
         specifier: npm:ember-cli@~4.4.0
         version: /ember-cli@4.4.1(lodash@4.17.21)
-      ember-cli-babel-8:
-        specifier: npm:ember-cli-babel@^8.2.0
-        version: /ember-cli-babel@8.2.0(@babel/core@7.24.5)
       ember-cli-beta:
         specifier: npm:ember-cli@beta
         version: /ember-cli@5.9.0-beta.1
@@ -2466,16 +2460,6 @@ packages:
     dependencies:
       '@babel/core': 7.24.5(supports-color@8.1.1)
       '@babel/helper-plugin-utils': 7.24.5
-
-  /@babel/plugin-syntax-decorators@7.23.3(@babel/core@7.24.5):
-    resolution: {integrity: sha512-cf7Niq4/+/juY67E0PbgH0TDhLQ5J7zS8C/Q5FFx+DWyrRa9sUQdTXkjqKu8zGvuqr7vw1muKiukseihU+PJDA==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.24.5(supports-color@8.1.1)
-      '@babel/helper-plugin-utils': 7.24.5
-    dev: false
 
   /@babel/plugin-syntax-decorators@7.24.1(@babel/core@7.24.5):
     resolution: {integrity: sha512-05RJdO/cCrtVWuAaSn1tS3bH8jbsJa/Y1uD186u6J4C/1mnHFxseeuWpsqr9anvo7TUulev7tm7GDwRV+VuhDw==}
@@ -7241,6 +7225,9 @@ packages:
 
   /ajv-formats@2.1.1:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+    peerDependenciesMeta:
+      ajv:
+        optional: true
     dependencies:
       ajv: 8.13.0
 
@@ -10426,15 +10413,6 @@ packages:
     dependencies:
       mimic-response: 1.0.1
     dev: true
-
-  /decorator-transforms@1.0.1(@babel/core@7.24.5):
-    resolution: {integrity: sha512-ZOaiw4tqiyhtqiMKCNzjS+nGsYPZltToqRAFc5rOUcc4u8d7MTlgelw1qXfL6ieg2l6xZcz6lTZ5M94Ohnk2xA==}
-    dependencies:
-      '@babel/plugin-syntax-decorators': 7.23.3(@babel/core@7.24.5)
-      babel-import-util: 2.1.1
-    transitivePeerDependencies:
-      - '@babel/core'
-    dev: false
 
   /dedent@1.5.3:
     resolution: {integrity: sha512-NHQtfOOW68WD8lgypbLA5oT+Bt0xXJhiYvoR6SmmNXZfpzOGXwdKWmcwG8N7PwVVWV3eF/68nmD9BaJSsTBhyQ==}
