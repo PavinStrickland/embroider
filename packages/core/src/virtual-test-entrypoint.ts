@@ -80,6 +80,6 @@ import "@embroider/core/entrypoint";
   d("{{js-string-escape amdModule.runtime}}", function(){ return i("{{js-string-escape amdModule.buildtime}}");});
 {{/each}}
 
-import('./tests/test-helper');
+import('../tests/test-helper');
 EmberENV.TESTS_FILE_LOADED = true;
 `) as (params: { amdModules: { runtime: string; buildtime: string }[] }) => string;
