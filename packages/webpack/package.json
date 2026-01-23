@@ -32,7 +32,7 @@
     "escape-string-regexp": "^4.0.0",
     "fs-extra": "^9.1.0",
     "jsdom": "^16.6.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "mini-css-extract-plugin": "^2.5.3",
     "semver": "^7.3.5",
     "source-map-url": "^0.4.1",
