@@ -41,7 +41,7 @@
     "handlebars": "^4.7.7",
     "js-string-escape": "^1.0.1",
     "jsdom": "^16.6.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "resolve": "^1.20.0",
     "resolve-package-path": "^4.0.1",
     "resolve.exports": "^2.0.2",
